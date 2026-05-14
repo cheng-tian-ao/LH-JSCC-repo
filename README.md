@@ -8,9 +8,9 @@
 
 <br>
 
-**Yuyi Sun**<sup>1*</sup> &emsp; **Tianao Cheng**<sup>1*</sup> &emsp; **Tingting Xiao** &emsp; **Yijun Lu** <br> **Zheng Lin** &emsp; **Shibo He** &emsp; **Wei Ni** &emsp; **Jun Luo**
+**Yuyi Sun**<sup>1*</sup> &emsp; **Tianao Cheng**<sup>1*</sup> &emsp; **Tingting Xiao**<sup>1</sup> &emsp; **Yijun Lu**<sup>1</sup> <br> **Zheng Lin**<sup>1</sup> &emsp; **Shibo He** &emsp; **Wei Ni** &emsp; **Jun Luo**
 
-<sup>1</sup> Institution Name<br>
+<sup>1</sup> Hangzhou Normal University<br>
 <sup>*</sup> Equal contribution.
 
 </div>
@@ -19,19 +19,19 @@
 
 ## 📄 Overview
 
-This repository serves as the official paper archive for **LH-JSCC**, a lightweight hybrid joint source-channel coding framework designed for few-shot semantic communication in Industrial Internet of Things (IIoT)[...]
+This repository serves as the official paper archive for **LH-JSCC**, a lightweight hybrid joint source-channel coding framework designed for few-shot semantic communication in Industrial Internet of Things (IIoT). By leveraging advanced deep learning techniques, LH-JSCC significantly reduces communication overhead while maintaining high semantic fidelity, making it highly suitable for resource-constrained IIoT devices.
 
 ---
 
 ## 📝 Abstract
 
-> Industrial Internet of Things (IIoT) has been a significant technology in modern industry, which requires timely data transmissions for emergent tasks. Conventional data transmission approaches transm[...]
+> Industrial Internet of Things (IIoT) has been a significant technology in modern industry, which requires timely data transmissions for emergent tasks. Conventional data transmission approaches transmit raw data or compressed bits, which often suffer from severe performance degradation under low signal-to-noise ratio (SNR) conditions and limited bandwidth. To address these challenges, we propose LH-JSCC, a Lightweight Hybrid Joint Source-Channel Coding framework. LH-JSCC extracts essential semantic features from the source data and transmits them robustly over noisy channels. Extensive experiments demonstrate that our approach achieves superior performance in few-shot scenarios, significantly outperforming traditional methods in both transmission efficiency and reliability.
 
 ---
 
 ## 🔒 Code Availability
 
-The complete source code, including model implementations, training scripts, and evaluation pipelines, will be released in the `src/` directory **upon acceptance of the paper**. We are committed to en[...]
+The complete source code, including model implementations, training scripts, and evaluation pipelines, will be released in the `src/` directory **upon acceptance of the paper**. We are committed to open science and will provide full instructions and pre-trained models to reproduce all experiments reported in the paper.
 
 ---
 
