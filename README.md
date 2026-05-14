@@ -8,9 +8,9 @@
 
 <br>
 
-**Yuyi Sun**<sup>1*</sup> &emsp; **Tianao Cheng**<sup>1*</sup> &emsp; **Tingting Xiao**<sup>1</sup> &emsp; **Yijun Lu**<sup>1</sup> <br> **Zheng Lin**<sup>1</sup> &emsp; **Shibo He** &emsp; **Wei Ni** &emsp; **Jun Luo**
+**Yuyi Sun**<sup>1*</sup> &emsp; **Tianao Cheng**<sup>1*</sup> &emsp; **Tingting Xiao**<sup>1</sup> &emsp; **Yijun Lu**<sup>2</sup> <br> **Zheng Lin**<sup>3</sup> &emsp; **Shibo He**<sup>4</sup> &emsp; **Wei Ni**<sup>5</sup> &emsp; **Jun Luo**<sup>6</sup>
 
-<sup>1</sup> Hangzhou Normal University<br>
+<sup>1</sup> Hangzhou Normal University &emsp; <sup>2</sup> Waseda University &emsp; <sup>3</sup> The University of Hong Kong <br> <sup>4</sup> Zhejiang University &emsp; <sup>5</sup> Edith Cowan University &emsp; <sup>6</sup> Nanyang Technological University <br>
 <sup>*</sup> Equal contribution.
 
 </div>
@@ -25,7 +25,7 @@ This repository serves as the official paper archive for **LH-JSCC**, a lightwei
 
 ## 📝 Abstract
 
-> Industrial Internet of Things (IIoT) has been a significant technology in modern industry, which requires timely data transmissions for emergent tasks. Conventional data transmission approaches transmit raw data or compressed bits, which often suffer from severe performance degradation under low signal-to-noise ratio (SNR) conditions and limited bandwidth. To address these challenges, we propose LH-JSCC, a Lightweight Hybrid Joint Source-Channel Coding framework. LH-JSCC extracts essential semantic features from the source data and transmits them robustly over noisy channels. Extensive experiments demonstrate that our approach achieves superior performance in few-shot scenarios, significantly outperforming traditional methods in both transmission efficiency and reliability.
+> Industrial Internet of Things (IIoT) has been a significant technology in modern industry, which requires timely data transmissions for emergent tasks. Conventional data transmission approaches transmit raw data, bringing about high-redundancy, low-value data bulk and higher resource consumption. Semantic communication (SemCom), a new paradigm for next-generation communications, extracts semantics for transmissions rather than raw bit data, which can save energy consumption and achieve task-oriented transmissions. However, SemCom framework deployed for IIoT faces some challenges, and existing schemes cannot be directly applied. IIoT suffers from severe interference, which poses a challenge for semantic transmissions. Furthermore, there have been limited industrial datasets for training the SemCom encoder-decoder framework. In this paper, we propose LH-JSCC, a lightweight hybrid network toward few-shot SemCom for IIoT. Specifically, we first propose a lightweight encoding backbone based on NAFNet to extract non-linear features with low cost, and we design a depthwise generalized divisive normalization (GDN) model to further reduce the computation complexity. Then, we design a hybrid module that integrates convolutional neural networks (CNNs) and Transformers to capture the global contexts and ensure that the system can be few-shot trained. Finally, we propose an SNR-aware modulation to maintain the transmission accuracy for varying channels. The experimental results demonstrate that our system outperforms the DJSCC, ADJSCC, and DeepJSCC-l++ system in terms of PSNR, SSIM, and other metrics for anomaly detection.
 
 ---
 
